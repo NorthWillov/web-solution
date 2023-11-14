@@ -24,7 +24,7 @@ function Jumbotron() {
         <Image
           src={iphone}
           alt="logo"
-          className={styles.logo}
+          className={styles.iphone}
           height="auto"
           width="auto"
         />

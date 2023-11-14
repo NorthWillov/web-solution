@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center top;
   color: #fff;
-  padding: 0 7%;
+  padding: 0 3%;
   height: 100vh;
   display: flex;
   margin-top: -100px;
@@ -38,6 +38,11 @@
   opacity: 0;
   animation: fadeIn 1s ease-in forwards;
 }
+.iphone {
+  margin-top: 100px;
+  height: auto;
+  width: 800px;
+}
 
 .button {
   width: 218px;
@@ -51,15 +56,34 @@
   margin-top: 70px;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1547px) {
+  .iphone {
+    height: auto;
+    width: 600px;
+  }
+}
+@media (max-width: 1215px) {
+  .iphone {
+    height: auto;
+    width: 500px;
+  }
+}
+@media (max-width: 1200px) {
   .content {
     flex-direction: column;
   }
-
-  .logo {
+  .iphone {
     height: auto;
-    width: 300px;
-    opacity: 0.5;
+    width: 100%
+  }
+  .contentText {
+    margin-top: 200px;
+  }
+  .main {
+    height: auto;
+  }
+  .title {
+    font-size: 50px;
   }
 }
 
