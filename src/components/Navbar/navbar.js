@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../../assets/logodom.svg";
 import ScrollLink from "../ScrollLink";
 import Image from "next/image";
@@ -7,13 +7,32 @@ import styles from "./navbar.module.css";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const handleClick = () => {
     setActive(!active);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY > 0;
+      setIsScrolled(scrolled);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav data-testid="navbar" className={styles.navBar}>
+    <nav
+      data-testid="navbar"
+      className={`${styles.navBar} ${
+        isScrolled ? styles.white : styles.transparent
+      }`}
+    >
       <div className={styles.logoWrapper}>
         <Link href="/">
           <Image
