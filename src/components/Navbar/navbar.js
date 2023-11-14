@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav
       data-testid="navbar"
       className={`${styles.navBar} ${
-        isScrolled ? styles.white : styles.transparent
+        isScrolled || active ? styles.white : styles.transparent
       }`}
     >
       <div className={styles.logoWrapper}>
