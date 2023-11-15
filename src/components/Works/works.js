@@ -61,54 +61,58 @@ function Works(props) {
           height="auto"
         />
 
-        <div className={styles.subscribeCard}>
-          <h2 className={styles.subtitleMain}>
-            Join the <span className={styles.subtitleMainFocus}>lorem ipsum</span> today and enjoy it!
-          </h2>
-          <button onClick={handleClick} className={styles.button}>
-            Subscribe
-          </button>
-        </div>
+        <div className={styles.reverseOnMobile}>
+          <div className={styles.subscribeCard}>
+            <h2 className={styles.subtitleMain}>
+              Join the{" "}
+              <span className={styles.subtitleMainFocus}>lorem ipsum</span>{" "}
+              today and enjoy it!
+            </h2>
+            <button onClick={handleClick} className={styles.button}>
+              Subscribe
+            </button>
+          </div>
 
-        <Image
-          className={styles.arrow2}
-          src={arrow}
-          alt="arrow"
-          width="auto"
-          height="auto"
-        />
-
-        <div className={styles.card}>
           <Image
-            className={styles.family}
-            src={family}
-            alt="family"
+            className={styles.arrow2}
+            src={arrow}
+            alt="arrow"
             width="auto"
             height="auto"
           />
-          <h2 className={styles.subtitle}>lorem ipsum</h2>
-          <ul className={styles.list}>
-            <li>
-              <Image
-                className={styles.icon}
-                src={checkicon}
-                alt="suitcase"
-                width="21"
-                height="20"
-              />
-              Lorem Ipsum
-            </li>
-            <li>
-              <Image
-                className={styles.icon}
-                src={checkicon}
-                alt="suitcase"
-                width="21"
-                height="20"
-              />
-              Lorem Ipsum
-            </li>
-          </ul>
+
+          <div className={styles.card}>
+            <Image
+              className={styles.family}
+              src={family}
+              alt="family"
+              width="auto"
+              height="auto"
+            />
+            <h2 className={styles.subtitle}>lorem ipsum</h2>
+            <ul className={styles.list}>
+              <li>
+                <Image
+                  className={styles.icon}
+                  src={checkicon}
+                  alt="suitcase"
+                  width="21"
+                  height="20"
+                />
+                Lorem Ipsum
+              </li>
+              <li>
+                <Image
+                  className={styles.icon}
+                  src={checkicon}
+                  alt="suitcase"
+                  width="21"
+                  height="20"
+                />
+                Lorem Ipsum
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
