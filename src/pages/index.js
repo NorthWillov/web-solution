@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar/navbar";
 import Jumbotron from "@/components/Jumbotron/jumbotron";
 import Works from "@/components/Works/works";
+import Features from "@/components/Features/features";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Navbar />
         <Jumbotron />
         <Works />
+        <Features />
       </main>
     </>
   );

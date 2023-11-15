@@ -1,0 +1,86 @@
+.main {
+  background-image: url("../../assets/bg3.jpg");
+  background-color: #fff;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 0 3%;
+  color: #000;
+}
+
+.title {
+  font-size: 60px;
+  background: linear-gradient(to right, #0094ff, #00c8c8);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.list {
+  list-style: none;
+  padding-top: 100px;
+}
+
+.listItem {
+  display: flex;
+}
+
+.listItemTitle {
+  font-size: 28px;
+}
+.listItemDesc {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.iphones {
+  margin-bottom: 200px;
+  display: flex;
+}
+
+.iphoneWrapperFirst {
+  margin-top: 100px;
+}
+
+.iphone {
+  width: 380px;
+  height: auto;
+  margin-right: 10px;
+}
+
+@media (max-width: 1300px) {
+  .iphone {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1100px) {
+  .iphone {
+    width: 250px;
+    height: auto;
+  }
+}
+@media (max-width: 960px) {
+  .iphone {
+    display: none;
+  }
+  .listItem {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .list {
+    margin: 0 auto;
+    padding-top: 0;
+  }
+  .icon {
+    margin-left: 50px;
+    margin-bottom: -20px;
+  }
+}
