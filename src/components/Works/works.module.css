@@ -1,4 +1,115 @@
 .main {
-  height: 2000px;
-  background-color: aqua;
+  background-image: url("../../assets/bg2.jpg");
+  background-size: cover;
+  background-position: center top;
+  padding: 0 3%;
+  border-top: 20px solid blue;
+}
+
+.how {
+  color: #00c8c8;
+}
+
+.works {
+  color: #01c7c7;
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 100px;
+}
+
+.desc {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.cards {
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.card {
+  width: 350px;
+  height: 460px;
+  background-color: #002b7c;
+  border: 2px solid grey;
+  border-radius: 15px;
+}
+
+.subscribeCard {
+  width: 562px;
+  height: 354px;
+  background-color: #002b7c;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 10px 40px;
+  font-size: 18px;
+}
+
+.list li {
+  margin-bottom: 30px;
+}
+
+.suitcase {
+  display: block;
+  margin: 30px auto 0;
+}
+
+.family {
+  display: block;
+  margin: 30px auto 0;
+}
+
+.subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  color: #00ffe0;
+  font-size: 24px;
+  margin: 35px 0 20px;
+}
+
+.subtitleMain {
+  text-align: center;
+  padding: 30px 50px 0px 50px;
+  margin-top: 90px;
+}
+
+.subtitleMainFocus {
+  text-transform: uppercase;
+  color: #00ffe0;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.arrow1 {
+  margin-bottom: 30px;
+}
+.arrow2 {
+  margin-bottom: 30px;
+  transform: rotate(0.5turn);
+}
+
+.button {
+  width: 296px;
+  height: 56px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  background: linear-gradient(to left, #18c8ff, #933ffe);
+  letter-spacing: 1px;
+  margin: 70px auto 0px;
+  display: block;
+  border: 3px solid 18c8ff;
 }
