@@ -7,6 +7,7 @@ import Jumbotron from "@/components/Jumbotron/jumbotron";
 import Works from "@/components/Works/works";
 import Features from "@/components/Features/features";
 import Roadmap from "@/components/Roadmap/roadmap";
+import Team from "@/components/Team/team";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function Home() {
         <Works />
         <Features />
         <Roadmap />
+        <Team />
       </main>
     </>
   );
