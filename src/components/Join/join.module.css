@@ -1,0 +1,78 @@
+.main {
+  background-image: url("../../assets/bg4.jpg");
+  background-color: #fff;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 0 7%;
+  color: #000;
+  height: 387px;
+}
+
+.joinBoxWrapper {
+  position: relative;
+}
+
+.joinBox {
+  text-align: center;
+  background-image: url("../../assets/joinBg.jpg");
+  background-size: cover;
+  width: 1184px;
+  height: 341px;
+  position: absolute;
+  margin-top: -170px;
+  top: 0;
+  right: calc(50% - 592px);
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 48px;
+  margin-top: 40px;
+}
+
+.desc {
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+
+.btn {
+  color: #1e50ff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 480px;
+  height: 65px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.gradient {
+  background: linear-gradient(to right, #ff29c3, #0038ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1189px) {
+  .joinBox {
+    width: 790px;
+    margin-top: -170px;
+    right: calc(50% - 395px);
+  }
+}
+@media (max-width: 960px) {
+  .joinBox {
+    width: 100%;
+    right: 0;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .desc {
+    font-size: 20px;
+  }
+  .btn {
+    width: 300px;
+  }
+}

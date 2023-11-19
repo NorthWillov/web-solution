@@ -8,6 +8,8 @@ import Works from "@/components/Works/works";
 import Features from "@/components/Features/features";
 import Roadmap from "@/components/Roadmap/roadmap";
 import Team from "@/components/Team/team";
+import Join from "@/components/Join/join";
+import Footer from "@/components/Footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +28,8 @@ export default function Home() {
         <Features />
         <Roadmap />
         <Team />
+        <Join />
+        <Footer />
       </main>
     </>
   );
