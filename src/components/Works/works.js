@@ -12,7 +12,7 @@ function Works(props) {
   };
 
   return (
-    <div className={styles.main}>
+    <div data-testid="works" id="works" className={styles.main}>
       <h1 className={styles.title}>
         <span className={styles.how}>How</span> The Lorem Ipsum <br />{" "}
         <span className={styles.works}>Works</span>

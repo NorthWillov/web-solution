@@ -6,7 +6,7 @@ import styles from "./roadmap.module.css";
 
 function Roadmap() {
   return (
-    <div className={styles.main}>
+    <div data-testid="roadmap" id="roadmap" className={styles.main}>
       <h1 className={styles.title}>Project Roadmap</h1>
       <div className={styles.imgWrapper}>
         <Image className={styles.roadmap} src={roadmap} alt="roadmap" />

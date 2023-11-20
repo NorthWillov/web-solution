@@ -9,7 +9,7 @@ import styles from "./features.module.css";
 
 function Features() {
   return (
-    <div className={styles.main}>
+    <div data-testid="features" id="features" className={styles.main}>
       <h1 className={styles.title}>Our features</h1>
       <div className={styles.content}>
         <ul className={styles.list}>

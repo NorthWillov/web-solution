@@ -58,17 +58,17 @@ const Navbar = () => {
         className={`${styles.navBarMenu} ${active && styles.navBarMenuActive}`}
       >
         <li>
-          <ScrollLink onClick={handleClick} to="about">
+          <ScrollLink onClick={handleClick} to="works">
             How it works
           </ScrollLink>
         </li>
         <li>
-          <ScrollLink onClick={handleClick} to="offer">
+          <ScrollLink onClick={handleClick} to="features">
             Our Features
           </ScrollLink>
         </li>
         <li>
-          <ScrollLink onClick={handleClick} to="contact">
+          <ScrollLink onClick={handleClick} to="roadmap">
             Roadmap
           </ScrollLink>
         </li>

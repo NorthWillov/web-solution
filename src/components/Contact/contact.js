@@ -3,7 +3,7 @@ import styles from "./contact.module.css";
 
 function Contact() {
   return (
-    <div className={styles.main}>
+    <div data-testid="contact" id="contact" className={styles.main}>
       <div className={styles.contacts}>
         <div className={styles.contactsQuote}>
           <p>Unlock the Potential of Communication with LOREM IPSON</p>
