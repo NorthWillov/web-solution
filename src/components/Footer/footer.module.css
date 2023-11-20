@@ -1,4 +1,53 @@
 .main {
-  height: 1000px;
-  background-color: aqua;
+  background-image: url("../../assets/bg5.jpeg");
+  background-size: cover;
+  background-position: center top;
+  padding: 0 10%;
+  height: 520px;
+}
+
+.contacts {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contactInfoTitle {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.contactsQuote {
+  max-width: 300px;
+  font-size: 18px;
+}
+
+.contactInfo {
+  margin-top: 10px;
+}
+
+.contactInfo i {
+  color: #00e8dd;
+  margin-right: 10px;
+}
+
+.contactInfo span {
+  font-size: 14px;
+}
+
+@media (max-width: 960px) {
+  .contacts {
+    flex-direction: column;
+    padding-top: 250px;
+  }
+  .contactsQuote {
+    max-width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+  .contact {
+    margin-top: 50px;
+    text-align: center;
+  }
 }
