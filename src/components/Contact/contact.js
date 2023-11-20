@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./footer.module.css";
+import styles from "./contact.module.css";
 
-function Footer() {
+function Contact() {
   return (
-    <footer className={styles.main}>
+    <div className={styles.main}>
       <div className={styles.contacts}>
         <div className={styles.contactsQuote}>
           <p>Unlock the Potential of Communication with LOREM IPSON</p>
@@ -20,8 +20,8 @@ function Footer() {
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 }
 
-export default Footer;
+export default Contact;

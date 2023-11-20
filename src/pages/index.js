@@ -9,7 +9,7 @@ import Features from "@/components/Features/features";
 import Roadmap from "@/components/Roadmap/roadmap";
 import Team from "@/components/Team/team";
 import Join from "@/components/Join/join";
-import Footer from "@/components/Footer/footer";
+import Contact from "@/components/Contact/contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +29,7 @@ export default function Home() {
         <Roadmap />
         <Team />
         <Join />
-        <Footer />
+        <Contact />
       </main>
     </>
   );
