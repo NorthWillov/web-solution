@@ -49,15 +49,17 @@
 @media (max-width: 960px) {
   .navBar {
     height: 80px;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .logo {
     width: 150px;
     height: auto;
+    margin-left: 20px;
   }
   .icon {
     display: block;
     position: sticky;
+    margin-right: 40px;
   }
   .navBarMenu {
     display: none;
