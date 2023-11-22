@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import roadmap from "../../assets/roadmap.png";
-import roadmapMini from "../../assets/roadmap-mini.png";
+import roadmap from "../../assets/roadmap.svg";
+import roadmapMini from "../../assets/roadmap-mini.svg";
 import styles from "./roadmap.module.css";
 
 function Roadmap() {

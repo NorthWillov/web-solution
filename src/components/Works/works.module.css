@@ -1,5 +1,5 @@
 .main {
-  background-image: url("../../assets/bg2.jpg");
+  background-image: url("../../assets/bg2.jpeg");
   background-size: cover;
   background-position: center top;
   padding: 0 3%;
@@ -59,6 +59,7 @@
 
 .list li {
   margin-bottom: 30px;
+  display: flex;
 }
 
 .suitcase {
@@ -79,6 +80,10 @@
   margin: 35px 0 20px;
 }
 
+.icon {
+  margin-top: 5px;
+}
+
 .subtitleMain {
   text-align: center;
   padding: 30px 50px 0px 50px;
@@ -86,7 +91,6 @@
 }
 
 .subtitleMainFocus {
-  text-transform: uppercase;
   color: #00ffe0;
 }
 
@@ -143,5 +147,11 @@
   }
   .subscribeCard {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .button {
+    margin: 20px auto 0px;
   }
 }

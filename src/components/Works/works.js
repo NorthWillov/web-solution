@@ -14,10 +14,12 @@ function Works(props) {
   return (
     <div data-testid="works" id="works" className={styles.main}>
       <h1 className={styles.title}>
-        <span className={styles.how}>How</span> The Lorem Ipsum <br />{" "}
+        <span className={styles.how}>How</span> The Clubs App <br />{" "}
         <span className={styles.works}>Works</span>
       </h1>
-      <p className={styles.desc}>Lorem Ipsum</p>
+      <p className={styles.desc}>
+        Connect with a community of different kind of people
+      </p>
 
       <div className={styles.cards}>
         <div className={styles.card}>
@@ -30,7 +32,7 @@ function Works(props) {
           />
           <h2 className={styles.subtitle}>business</h2>
           <ul className={styles.list}>
-            <li>
+            <li className={styles.listItem}>
               <Image
                 className={styles.icon}
                 src={checkicon}
@@ -38,7 +40,7 @@ function Works(props) {
                 width="21"
                 height="20"
               />
-              Lorem Ipsum
+              <p>Access to a community of visitors.</p>
             </li>
             <li>
               <Image
@@ -48,7 +50,7 @@ function Works(props) {
                 width="21"
                 height="20"
               />
-              Lorem Ipsum
+              <p>Get insights about customer behavior and foot traffic.</p>
             </li>
           </ul>
         </div>
@@ -65,7 +67,9 @@ function Works(props) {
           <div className={styles.subscribeCard}>
             <h2 className={styles.subtitleMain}>
               Join the{" "}
-              <span className={styles.subtitleMainFocus}>lorem ipsum</span>{" "}
+              <span className={styles.subtitleMainFocus}>
+                Clubs App platform
+              </span>{" "}
               today and enjoy it!
             </h2>
             <button onClick={handleClick} className={styles.button}>
@@ -89,7 +93,7 @@ function Works(props) {
               width="auto"
               height="auto"
             />
-            <h2 className={styles.subtitle}>lorem ipsum</h2>
+            <h2 className={styles.subtitle}>CLUBS APP</h2>
             <ul className={styles.list}>
               <li>
                 <Image
@@ -99,7 +103,7 @@ function Works(props) {
                   width="21"
                   height="20"
                 />
-                Lorem Ipsum
+                <p>Join to the community of like-minded people</p>
               </li>
               <li>
                 <Image
@@ -109,7 +113,7 @@ function Works(props) {
                   width="21"
                   height="20"
                 />
-                Lorem Ipsum
+                <p>Communicate, share, create interest clubs</p>
               </li>
             </ul>
           </div>

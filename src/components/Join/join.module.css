@@ -51,7 +51,6 @@
   background: linear-gradient(to right, #ff29c3, #0038ff);
   -webkit-background-clip: text;
   color: transparent;
-  text-transform: uppercase;
 }
 
 @media (max-width: 1189px) {

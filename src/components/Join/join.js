@@ -12,9 +12,11 @@ function Join() {
       <div className={styles.joinBoxWrapper}>
         <div className={styles.joinBox}>
           <h1 className={styles.title}>
-            Join The <span className={styles.gradient}>lorem</span>
+            Join The <span className={styles.gradient}>Clubs App</span>
           </h1>
-          <p className={styles.desc}>Lorem ipsum</p>
+          <p className={styles.desc}>
+            Join to the community of like-minded people
+          </p>
           <button className={styles.btn} onClick={handleClick}>
             Subscribe
           </button>
