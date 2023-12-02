@@ -37,7 +37,8 @@
   border-bottom: 4px solid;
   border-image: linear-gradient(to right, #0066ff, #ff29c3);
   border-image-slice: 1;
-  margin: 20px;
+  margin: 20px auto;
+  margin-bottom: 60px;
 }
 
 .cardDesc {
@@ -60,8 +61,24 @@
 }
 
 @media (max-width: 960px) {
+  .title {
+    font-size: 45px;
+  }
   .cards {
     flex-direction: column;
     align-items: center;
+  }
+  .card {
+    width: 90%;
+  }
+  .imgWrapper {
+    width: 100%;
+  }
+  .man {
+    width: 100%;
+    height: auto;
+  }
+  .main {
+    padding: 0 0%;
   }
 }
