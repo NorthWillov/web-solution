@@ -3,9 +3,10 @@ import Image from "next/image";
 import styles from "./jumbotron.module.css";
 import iphone from "../../assets/jumb-iphone.png";
 
-function Jumbotron() {
+function Jumbotron({ onSubscribeClick }) {
   const handleClick = () => {
     console.log("Subscibe button logic here");
+    onSubscribeClick();
   };
 
   return (

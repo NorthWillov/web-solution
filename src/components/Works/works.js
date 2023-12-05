@@ -6,9 +6,10 @@ import family from "../../assets/family.svg";
 import checkicon from "../../assets/check-circle.svg";
 import styles from "./works.module.css";
 
-function Works(props) {
+function Works({ onSubscribeClick }) {
   const handleClick = () => {
     console.log("Subscibe button logic here");
+    onSubscribeClick();
   };
 
   return (
