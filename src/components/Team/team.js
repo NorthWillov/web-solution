@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import artem from "../../assets/artem.png";
 import den from "../../assets/den.png";
+import roma from "../../assets/roma.png";
 import Carousel from "react-multi-carousel";
 import styles from "./team.module.css";
 
@@ -111,7 +112,7 @@ function Team(props) {
           <div className={styles.imgWrapper}>
             <Image
               className={styles.man}
-              src={den}
+              src={roma}
               alt="team member"
               width="auto"
               height="auto"
