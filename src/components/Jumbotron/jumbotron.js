@@ -5,7 +5,6 @@ import iphone from "../../assets/jumb-iphone.png";
 
 function Jumbotron({ onSubscribeClick }) {
   const handleClick = () => {
-    console.log("Subscibe button logic here");
     onSubscribeClick();
   };
 

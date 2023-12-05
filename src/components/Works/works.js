@@ -8,7 +8,6 @@ import styles from "./works.module.css";
 
 function Works({ onSubscribeClick }) {
   const handleClick = () => {
-    console.log("Subscibe button logic here");
     onSubscribeClick();
   };
 

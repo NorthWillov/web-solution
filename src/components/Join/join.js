@@ -3,7 +3,6 @@ import styles from "./join.module.css";
 
 function Join({ onSubscribeClick }) {
   const handleClick = () => {
-    console.log("Button logic here");
     onSubscribeClick();
   };
 

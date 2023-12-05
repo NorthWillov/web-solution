@@ -27,6 +27,7 @@ const SubscribeModal = ({ isOpen, onClose }) => {
       isOpen={isOpen}
       onRequestClose={onClose}
       contentLabel="Subscribe Modal"
+      ariaHideApp={false}
       overlayClassName="Overlay"
     >
       <h2 className={styles.title}>Subscribe</h2>
