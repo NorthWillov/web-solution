@@ -41,6 +41,12 @@
   background-color: grey;
 }
 
+.message {
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+}
+
 @media (max-width: 960px) {
   .input {
     width: 100%;
