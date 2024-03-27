@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center top;
   padding: 0 3%;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .title {
@@ -38,5 +38,8 @@
   }
   .imgWrapper {
     display: none;
+  }
+  .main {
+    padding-bottom: 100px;
   }
 }

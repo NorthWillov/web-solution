@@ -1,8 +1,6 @@
 import Head from "next/head";
-import React, { useState } from "react";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
+import React, { useState, useEffect } from "react";
+import ReactGA from "react-ga4";
 import Navbar from "@/components/Navbar/navbar";
 import Jumbotron from "@/components/Jumbotron/jumbotron";
 import Works from "@/components/Works/works";
@@ -14,10 +12,12 @@ import Contact from "@/components/Contact/contact";
 import Footer from "@/components/Footer/footer";
 import SubscribeModal from "@/components/SubscribeModal/subscribemodal";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   const [isSubscribeModalOpen, setSubscribeModalOpen] = useState(false);
+
+  useEffect(() => {
+    ReactGA.initialize("G-EWX660V90D");
+  }, []);
 
   const openSubscribeModal = () => {
     setSubscribeModalOpen(true);
